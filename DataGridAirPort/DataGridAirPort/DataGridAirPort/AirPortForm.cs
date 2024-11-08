@@ -128,6 +128,12 @@ namespace DataGridAirPort
         {
             if (AreAllFieldsFilled())
             {
+                if (comboBoxType.SelectedIndex == 0)
+                {
+                    MessageBox.Show("Пожалуйста, выберите тип самолета из списка.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 DialogResult = DialogResult.OK;
                 Close();
             }

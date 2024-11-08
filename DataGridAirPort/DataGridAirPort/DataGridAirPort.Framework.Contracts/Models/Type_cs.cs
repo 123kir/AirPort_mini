@@ -8,10 +8,10 @@ namespace DataGridAirPort.Framework.Contracts.Models
     public enum Type_cs
     {
         /// <summary>
-        /// Боинг
+        /// Пусто
         /// </summary>
-        [Description("Боинг")]
-        Boeing = 1,
+        [Description("Пусто")]
+        Empty = 1,
 
         /// <summary>
         /// Эйрбас
@@ -24,5 +24,11 @@ namespace DataGridAirPort.Framework.Contracts.Models
         /// </summary>
         [Description("ОАК")]
         UAC = 3,
+
+        /// <summary>
+        /// Боинг
+        /// </summary>
+        [Description("Боинг")]
+        Boeing = 4,
     }
 }
