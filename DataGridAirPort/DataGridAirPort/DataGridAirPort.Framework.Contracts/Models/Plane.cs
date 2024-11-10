@@ -31,7 +31,7 @@ namespace DataGridAirPort.Framework.Contracts.Models
         /// Кол-во пассажиров 
         /// </summary>
         [Required]
-        [Range(0, 450)]
+        [Range( 0, 450)]
         public int Number_passenger { get; set; }
 
         /// <summary>
