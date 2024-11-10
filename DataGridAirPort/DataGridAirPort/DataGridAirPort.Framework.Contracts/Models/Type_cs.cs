@@ -3,7 +3,7 @@
 namespace DataGridAirPort.Framework.Contracts.Models
 {
     /// <summary>
-    /// Перечисление для обозначения марок самолетов
+    /// Перечисление для обозначения типов самолетов
     /// </summary>
     public enum Type_cs
     {

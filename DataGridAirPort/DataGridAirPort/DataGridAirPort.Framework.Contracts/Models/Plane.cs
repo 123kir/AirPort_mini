@@ -5,7 +5,6 @@ namespace DataGridAirPort.Framework.Contracts.Models
 {
     /// <summary>
     /// Класс, представляющий информацию о самолете
-    /// Машина
     /// </summary>
     public class Plane
     {
@@ -15,7 +14,7 @@ namespace DataGridAirPort.Framework.Contracts.Models
         public Guid Id_Flight { get; set; }
 
         /// <summary>
-        ///  Модель 
+        ///  Тип 
         /// </summary>
 
         /// <intheridoc cref="Models.Type_cs"/>
