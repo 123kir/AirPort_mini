@@ -104,12 +104,6 @@ namespace DataGridAirPort
 
         private void AirPortForm_Load(object sender, EventArgs e)
         {
-            textBoxNumber_Flight.Text = string.Empty;
-            textBoxNumber_passenger.Text = string.Empty;
-            textBoxPassenger_fee.Text = string.Empty;
-            textBoxNumber_crew.Text = string.Empty;
-            textBoxCrew_fee.Text = string.Empty;
-            textBoxPercent.Text = string.Empty;
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
